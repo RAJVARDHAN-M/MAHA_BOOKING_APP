@@ -25,7 +25,7 @@ mongoose.connection.on("disconnected", () => {
 });
 
 //middlewares
-app.use(cors(["https://maha-booking-app-api.onrender.com","www.google.com"]))
+app.use(cors(["https://maha-booking-app-api.onrender.com","www.google.com","https://maha-booking-app-admin.onrender.com","https://maha-booking-app-client.onrender.com"]))
 app.use(cookieParser())
 app.use(express.json());
 
