@@ -3,7 +3,7 @@ import "./featured.css";
 
 const Featured = () => {
   const { data, loading, error } = useFetch(
-    "/hotels/countByCity?cities=Mumbai,Pune,Nashik"
+    "https://maha-booking-app-api.onrender.com/api/hotels/countByCity?cities=Mumbai,Pune,Nashik"
   );
 
   return (
